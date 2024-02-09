@@ -38,6 +38,8 @@ dependencies {
     implementation "net.serenity-bdd:serenity-screenplay:${versionSerenity}"
     implementation "net.serenity-bdd:serenity-report-resources:${versionSerenity}"
     implementation "net.serenity-bdd:serenity-screenplay-webdriver:${versionSerenity}"
+    implementation 'org.seleniumhq.selenium:selenium-java:4.17.0'
+    implementation 'org.seleniumhq.selenium:selenium-grid:4.17.0'
 
     implementation "io.cucumber:datatable:${versionCucumber}"
     testImplementation "io.cucumber:cucumber-junit:${versionCucumber}"
