@@ -13,8 +13,10 @@ public class ValidateText implements Question<String> {
         this.element = element;
     }
 
+
     @Override
     public String answeredBy(Actor actor) {
+
         return element.resolveFor(actor).getText();
     }
 

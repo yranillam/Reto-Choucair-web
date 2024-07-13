@@ -13,6 +13,9 @@ public class UserLoombokData {
 
     String user;
     String pass;
+    String userL;
+    String passL;
+
 
     public static List<UserLoombokData> setData(DataTable table){
         List<UserLoombokData> data = new ArrayList<>();
@@ -37,5 +40,21 @@ public class UserLoombokData {
 
     public void setPass(String pass) {
         this.pass = pass;
+    }
+
+    public String getUserL() {
+        return userL;
+    }
+
+    public void setUserL(String userL) {
+        this.userL = userL;
+    }
+
+    public String getPassL() {
+        return passL;
+    }
+
+    public void setPassL(String passL) {
+        this.passL = passL;
     }
 }
